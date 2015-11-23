@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 
-s.name     = 'SSWeChatSDK'
+s.name     = 'MMWeChatSDK'
 s.version  = '1.6.2'
 s.license  = { :type => 'Copyright', :text => 'Copyright (c) 2012 Tencent. All rights reserved.' }
 s.summary  = 'The Official iOS SDK of WeChat from Tencent.'
