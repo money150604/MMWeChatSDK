@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
 s.name     = 'MMWeChatSDK'
-s.version  = '1.6.2'
+s.version  = '1.7.1'
 s.license  = { :type => 'Copyright', :text => 'Copyright (c) 2012 Tencent. All rights reserved.' }
 s.summary  = 'The Official iOS SDK of WeChat from Tencent.'
 s.description = <<-DESC
@@ -20,14 +20,14 @@ s.description = <<-DESC
 2、开发者需要在工程中链接上 CoreTelephony.framework
 3、解决bitcode编译不过问题
 DESC
-s.homepage = 'http://developer.baidu.com/map/index.php?title=iossdk'
+s.homepage = 'https://open.weixin.qq.com/cgi-bin/showdocument?action=dir_list&t=resource/res_list&verify=1&id=1417694084&token=&lang=zh_CN'
 s.authors  = { 'Tencent' => 'developer@wechatapp.com' }
-s.source   = { :http => 'https://res.wx.qq.com/open/zh_CN/htmledition/res/dev/download/sdk/WeChatSDK1.6.2.zip' }
+s.source   = { :http => 'https://res.wx.qq.com/open/zh_CN/htmledition/res/dev/download/sdk/WeChatSDK1.7.1.zip' }
 s.ios.deployment_target = '4.3'
 s.requires_arc   = true
 
-s.vendored_libraries = 'SDK1.6.2/libWeChatSDK.a'
-s.source_files = 'SDK1.6.2/*.h'
+s.vendored_libraries = 'SDK1.7.1/libWeChatSDK.a'
+s.source_files = 'SDK1.7.1/*.h'
 s.frameworks = [
 'Foundation',
 'SystemConfiguration',
