@@ -26,8 +26,8 @@ s.source   = { :http => 'https://res.wx.qq.com/open/zh_CN/htmledition/res/dev/do
 s.ios.deployment_target = '4.3'
 s.requires_arc   = true
 
-s.vendored_libraries = 'SDKExport/libWeChatSDK.a'
-s.source_files = 'SDKExport/*.h'
+s.vendored_libraries = 'SDK1.7.3 demo/SDKExport/libWeChatSDK.a'
+s.source_files = 'SDK1.7.3 demo/SDKExport/*.h'
 s.frameworks = [
 'Foundation',
 'SystemConfiguration',
