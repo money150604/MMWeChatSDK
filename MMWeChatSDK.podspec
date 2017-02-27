@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
 s.name     = 'MMWeChatSDK'
-s.version  = '1.7.3'
+s.version  = '1.7.6'
 s.license  = { :type => 'Copyright', :text => 'Copyright (c) 2012 Tencent. All rights reserved.' }
 s.summary  = 'The Official iOS SDK of WeChat from Tencent.'
 s.description = <<-DESC
@@ -22,12 +22,12 @@ s.description = <<-DESC
 DESC
 s.homepage = 'https://open.weixin.qq.com/cgi-bin/showdocument?action=dir_list&t=resource/res_list&verify=1&id=1417694084&token=&lang=zh_CN'
 s.authors  = { 'Tencent' => 'developer@wechatapp.com' }
-s.source   = { :http => 'https://res.wx.qq.com/open/zh_CN/htmledition/res/dev/download/sdk/WeChatSDK1.7.3.zip' }
+s.source   = { :http => 'https://res.wx.qq.com/open/zh_CN/htmledition/res/dev/download/sdk/WeChatSDK1.7.6.zip' }
 s.ios.deployment_target = '4.3'
 s.requires_arc   = true
 
-s.vendored_libraries = 'SDK1.7.3 demo/SDKExport/libWeChatSDK.a'
-s.source_files = 'SDK1.7.3 demo/SDKExport/*.h'
+s.vendored_libraries = 'OpenSDK1.7.6/libWeChatSDK.a'
+s.source_files = 'OpenSDK1.7.6/*.h'
 s.frameworks = [
 'Foundation',
 'SystemConfiguration',
